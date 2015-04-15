@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+# NOTE(dbp 2015-04-15): Including to work around issue in dokku (#1112).
+
+cat <<EOF
+---
+config_vars:
+default_process_types:
+EOF
